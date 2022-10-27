@@ -65,7 +65,13 @@ export default function Home() {
           </p>
         </Container>
         <Container>
-          <Row className="mt-5 blockRow">
+          <Row
+            className={
+              typeof window !== "undefined" && window.innerWidth > 490
+                ? `d-flex mt-5`
+                : "d-block mt-5"
+            }
+          >
             <Col className="borderDiv pb-3 w-100">
               <div
                 className="mx-auto skillsDivThree mt-3"

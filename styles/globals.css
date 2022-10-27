@@ -76,7 +76,7 @@ a {
 /* @media only screen and (max-width: 350px) {
 } */
 
-.blockRow {
+.row {
   display: block;
 }
 .forMedia {
