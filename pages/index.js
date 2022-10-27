@@ -68,8 +68,8 @@ export default function Home() {
           <Row
             className={
               typeof window !== "undefined" && window.innerWidth > 490
-                ? `d-flex mt-5 `
-                : "d-block mt-5"
+                ? `d-flex mt-5  `
+                : "d-block mt-5 "
             }
           >
             <Col className="borderDiv pb-3 w-75 mx-auto">
@@ -113,12 +113,18 @@ export default function Home() {
                 </div>
               </Row>
             </Col>
-            <Col className="borderDiv w-75 pb-3 mx-auto ">
+            <Col
+              className={
+                typeof window !== "undefined" && window.innerWidth > 490
+                  ? "borderDiv w-75 pb-3 mx-2 ms-2 "
+                  : "borderDiv w-75 pb-3 mx-auto"
+              }
+            >
               <div
                 className="mx-auto skillsDivTwo mt-3 "
                 style={{ borderRadius: "50%", width: "75px", height: "75px" }}
               ></div>
-              <h5 className="text-center pt-5">Back End</h5>
+              <h5 className="text-center pt-5 ">Back End</h5>
               <Row>
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
