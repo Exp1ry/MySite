@@ -201,7 +201,7 @@ export default function Home() {
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
                   <div>
-                    <p className="w-50 mx-auto">
+                    <p className="w-75 mx-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -229,7 +229,7 @@ export default function Home() {
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
                   <div>
-                    <p className="w-50 mx-auto">
+                    <p className="w-75 mx-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
                       aliqua. Ut enim ad minim veniam, quis nostrud exercitation
