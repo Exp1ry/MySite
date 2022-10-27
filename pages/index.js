@@ -213,6 +213,7 @@ export default function Home() {
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
                   <div>
+                    <h3 className="text-center">Josh</h3>
                     <p className="w-75 mx-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -241,6 +242,7 @@ export default function Home() {
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
                   <div>
+                    <h3 className="text-center">James</h3>
                     <p className="w-75 mx-auto">
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna
