@@ -65,8 +65,8 @@ export default function Home() {
           </p>
         </Container>
         <Container>
-          <Row className="mt-5">
-            <Col className="borderDiv pb-3 ">
+          <Row className="mt-5 blockRow">
+            <Col className="borderDiv pb-3 w-100">
               <div
                 className="mx-auto skillsDivThree mt-3"
                 style={{
@@ -162,13 +162,13 @@ export default function Home() {
                   <p className="my-auto ms-2">Solidity</p>
                 </div>
               </Row>
-              <Row className="text-center">
+              <Row className="">
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
                   <p className="my-auto ms-2">Smart Contracts</p>
                 </div>
               </Row>
-              <Row className="text-center">
+              <Row className="">
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
                   <p className="my-auto ms-2">NFTs / Tokens</p>
