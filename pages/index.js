@@ -26,6 +26,7 @@ export default function Home() {
             src="https://i.postimg.cc/V63NhkF4/profilepic.jpg"
             height={"250px"}
             width={"215px"}
+            alt="img"
             className="mx-auto d-flex"
             style={{ borderRadius: "10%" }}
           ></Image>
@@ -36,7 +37,7 @@ export default function Home() {
               Self taught Web Developer with hands-on experience with
               technologies like MongoDB, ExpressJS, ReactJS, NodeJS, NextJS,
               Typescript and many packages. Extensive experience with Blockchain
-              development (Hyperledger Fabric), using technoligies like Docker,
+              development Hyperledger Fabric, using technoligies like Docker,
               Docker-compose, VM's, Apache Kafka
             </p>
 
@@ -192,6 +193,7 @@ export default function Home() {
                   <Image
                     src="https://i.postimg.cc/kG82BFDx/productsss.png"
                     width={"100%"}
+                    alt="img"
                   ></Image>
                 </Card.Body>
                 <Card.Footer>
@@ -220,6 +222,7 @@ export default function Home() {
                 <Card.Body>
                   <Image
                     src="https://i.postimg.cc/qMw3nwjL/Screenshot-from-2022-08-28-16-14-34.png"
+                    alt="img"
                     width={"100%"}
                   ></Image>
                 </Card.Body>
@@ -251,6 +254,7 @@ export default function Home() {
                 <Card.Body>
                   <Image
                     src="https://i.postimg.cc/xjhdG5CS/fabric.png"
+                    alt="img"
                     width={"100%"}
                   ></Image>
                 </Card.Body>
@@ -281,7 +285,7 @@ export default function Home() {
 
       <section style={{ height: "150px", backgroundColor: "#40a5f5" }}>
         <Container>
-          <div className="text-white text-center pt-4 ">
+          <div className="text-white text-center pt-4">
             <h2>Need a Passionate Developer?</h2>
             <p style={{ width: "100%" }} className="mx-auto">
               Don't hesitate to contact me through any of my socials to discuss
