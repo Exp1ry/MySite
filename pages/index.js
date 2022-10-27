@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
               </Row>
             </Col>
-            <Col className="borderDiv w-75 mx-auto ">
+            <Col className="borderDiv w-75 pb-3 mx-auto ">
               <div
                 className="mx-auto skillsDivTwo mt-3 "
                 style={{ borderRadius: "50%", width: "75px", height: "75px" }}
@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
               </Row>
             </Col>
-            <Col className="borderDiv w-75 mx-auto">
+            <Col className="borderDiv pb-3 w-75 mx-auto">
               <div
                 className="mx-auto skillsDiv mt-3"
                 style={{ borderRadius: "50%", width: "75px", height: "75px" }}
