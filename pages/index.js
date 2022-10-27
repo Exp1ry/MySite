@@ -179,7 +179,71 @@ export default function Home() {
         </Container>
       </section>
 
-      <section style={{ marginTop: "100px" }} className="mb-5">
+      <section>
+        <Container style={{ marginTop: "200px" }}>
+          <h2 className="text-center mb-5">What my clients think</h2>
+          <Carousel variant="dark" className="boxShadow">
+            <Carousel.Item>
+              <Card>
+                <Card.Title className="mx-auto "></Card.Title>
+                <h3 className="ms-5">
+                  <i
+                    class="fa-solid fa-quote-left"
+                    style={{ color: "#40a5f5" }}
+                  ></i>
+                </h3>
+                <Card.Body className="mx-auto pt-3 pb-5 ">
+                  <Image
+                    className="d-block mx-auto mb-5"
+                    roundedCircle={true}
+                    height={"100px"}
+                    width={"125px"}
+                    src="https://i.postimg.cc/L5WT8HJq/testman.webp"
+                  ></Image>
+                  <div>
+                    <p className="w-50 mx-auto">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
+            <Carousel.Item>
+              <Card>
+                <Card.Title className="mx-auto "></Card.Title>
+                <h3 className="ms-5">
+                  <i
+                    class="fa-solid fa-quote-left"
+                    style={{ color: "#40a5f5" }}
+                  ></i>
+                </h3>
+                <Card.Body className="mx-auto pt-3 pb-5 ">
+                  <Image
+                    className="d-block mx-auto mb-5"
+                    roundedCircle={true}
+                    height={"100px"}
+                    width={"125px"}
+                    src="https://i.postimg.cc/L5WT8HJq/testman.webp"
+                  ></Image>
+                  <div>
+                    <p className="w-50 mx-auto">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                  </div>
+                </Card.Body>
+              </Card>
+            </Carousel.Item>
+          </Carousel>
+        </Container>
+      </section>
+
+      <section style={{ marginTop: "200px" }} className="mb-5">
         <Container className="text-center">
           <h2 className="">My Projects</h2>
           <Row className="mt-5">
@@ -187,7 +251,9 @@ export default function Home() {
               <Card className=" mx-auto h-100">
                 <Card.Header className="mt-1">
                   {" "}
-                  <a href="https://www.lotshouse.com">eCommerce Site</a>
+                  <a className="links" href="https://www.lotshouse.com">
+                    eCommerce Site
+                  </a>
                 </Card.Header>
                 <Card.Body>
                   <Image
@@ -247,7 +313,7 @@ export default function Home() {
             <Col>
               <Card className=" mx-auto h-100 blockchainProject">
                 <Card.Header className="mt-1">
-                  <a href="https://youtu.be/i2CmejIOfp8">
+                  <a href="https://youtu.be/i2CmejIOfp8" className="links">
                     Blockchain Communication System
                   </a>
                 </Card.Header>
