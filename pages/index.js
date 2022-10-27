@@ -352,11 +352,10 @@ export default function Home() {
       <section style={{ height: "150px", backgroundColor: "#40a5f5" }}>
         <Container>
           <div className="text-white text-center pt-4">
-            <h2>Need a Passionate Developer?</h2>
+            <h2>Have a project idea?</h2>
             <p style={{ width: "100%" }} className="mx-auto">
-              Don&apos;t hesitate to contact me through any of my socials to
-              discuss project matters, or just drop me an email at{" "}
-              <span className="text-dark">fpszaid@gmail.com</span>
+              Don&apos;t hesitate to drop me an email at
+              <span className="text-dark d-block">fpszaid@gmail.com</span>
             </p>
           </div>
         </Container>
