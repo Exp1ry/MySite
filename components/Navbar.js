@@ -10,10 +10,14 @@ const NavBarComp = () => {
       <Container>
         <Navbar.Brand href="#home" className="text-dark d-flex">
           <Nav.Link>
-            <i class="fa-brands fa-linkedin" style={{ color: "white" }}></i>
+            <a href="https://www.linkedin.com/in/zaidwidyan/">
+              <i class="fa-brands fa-linkedin" style={{ color: "white" }}></i>
+            </a>
           </Nav.Link>
           <Nav.Link className="ms-5">
-            <i class="fa-brands fa-github" style={{ color: "white" }}></i>
+            <a href="https://github.com/Exp1ry">
+              <i class="fa-brands fa-github" style={{ color: "white" }}></i>
+            </a>
           </Nav.Link>
           <Nav.Link className="ms-5">
             <i class="fa-brands fa-twitter" style={{ color: "white" }}></i>
