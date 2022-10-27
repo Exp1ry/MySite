@@ -68,11 +68,11 @@ export default function Home() {
           <Row
             className={
               typeof window !== "undefined" && window.innerWidth > 490
-                ? `d-flex mt-5`
+                ? `d-flex mt-5 `
                 : "d-block mt-5"
             }
           >
-            <Col className="borderDiv pb-3 w-100">
+            <Col className="borderDiv pb-3 w-75 mx-auto">
               <div
                 className="mx-auto skillsDivThree mt-3"
                 style={{
@@ -113,7 +113,7 @@ export default function Home() {
                 </div>
               </Row>
             </Col>
-            <Col className="borderDiv ">
+            <Col className="borderDiv w-75 mx-auto ">
               <div
                 className="mx-auto skillsDivTwo mt-3 "
                 style={{ borderRadius: "50%", width: "75px", height: "75px" }}
@@ -150,7 +150,7 @@ export default function Home() {
                 </div>
               </Row>
             </Col>
-            <Col className="borderDiv">
+            <Col className="borderDiv w-75 mx-auto">
               <div
                 className="mx-auto skillsDiv mt-3"
                 style={{ borderRadius: "50%", width: "75px", height: "75px" }}
@@ -186,7 +186,7 @@ export default function Home() {
       </section>
 
       <section>
-        <Container style={{ marginTop: "200px" }}>
+        <Container style={{ marginTop: "150px" }}>
           <h2 className="text-center mb-5">What my clients think</h2>
           <Carousel variant="dark" className="boxShadow">
             <Carousel.Item>
@@ -249,7 +249,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section style={{ marginTop: "200px" }} className="mb-5">
+      <section style={{ marginTop: "150px" }} className="mb-5">
         <Container className="text-center">
           <h2 className="">My Projects</h2>
           <Row className="mt-5">
