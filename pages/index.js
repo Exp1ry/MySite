@@ -38,7 +38,7 @@ export default function Home() {
               technologies like MongoDB, ExpressJS, ReactJS, NodeJS, NextJS,
               Typescript and many packages. Extensive experience with Blockchain
               development Hyperledger Fabric, using technoligies like Docker,
-              Docker-compose, VM's, Apache Kafka
+              Docker-compose, VM&apos;s, Apache Kafka
             </p>
 
             <a href="https://www.linkedin.com/in/zaidwidyan/">
@@ -288,8 +288,8 @@ export default function Home() {
           <div className="text-white text-center pt-4">
             <h2>Need a Passionate Developer?</h2>
             <p style={{ width: "100%" }} className="mx-auto">
-              Don't hesitate to contact me through any of my socials to discuss
-              project matters, or just drop me an email at{" "}
+              Don&apos;t hesitate to contact me through any of my socials to
+              discuss project matters, or just drop me an email at{" "}
               <span className="text-dark">fpszaid@gmail.com</span>
             </p>
           </div>
