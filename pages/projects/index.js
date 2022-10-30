@@ -54,7 +54,7 @@ const Projects = (props) => {
                         </Badge>
                         <Badge className="ms-1" bg={"info"}>
                           StripeAPI
-                        </Badge>{" "}
+                        </Badge>
                       </>
                     ) : (
                       <>
