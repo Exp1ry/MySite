@@ -71,7 +71,7 @@ const Projects = (props) => {
               </Col>
             ) : i.category.includes("Personal") ? (
               <Col>
-                <Card key={i.id} className="text-center mt-5 pt-2">
+                <Card key={i.id} className="text-center mt-5 pt-2 ">
                   <Card.Title>
                     <h2>{i.project}</h2>
                   </Card.Title>
