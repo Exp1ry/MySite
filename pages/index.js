@@ -28,11 +28,20 @@ export default function Home() {
             <p>Hello, my name is</p>
             <h1>Zaid Widyan</h1>
             <p>
-              Self taught Web Developer with hands-on experience with
-              technologies like MongoDB, ExpressJS, ReactJS, NodeJS, NextJS,
-              Typescript and many packages. Extensive experience with Blockchain
-              development Hyperledger Fabric, using technoligies like Docker,
-              Docker-compose, VM&apos;s, Apache Kafka
+              Self taught<span className="text-dark"> Web Developer</span> with
+              hands-on experience with technologies like{" "}
+              <span className="text-dark">MongoDB</span>,{" "}
+              <span className="text-dark">ExpressJS</span>,{" "}
+              <span className="text-dark">ReactJS</span>,{" "}
+              <span className="text-dark">NodeJS</span>,{" "}
+              <span className="text-dark">NextJS</span>,{" "}
+              <span className="text-dark">Typescript</span> and many packages.
+              Extensive experience with{" "}
+              <span className="text-dark">Blockchain</span> development using{" "}
+              <span className="text-dark">Hyperledger Fabric</span>, using
+              technoligies like <span className="text-dark">Docker</span>,
+              <span className="text-dark">Docker Compose</span>, VM&apos;s,
+              Apache Kafka
             </p>
 
             <a href="https://www.linkedin.com/in/zaidwidyan/">
