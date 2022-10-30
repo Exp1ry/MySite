@@ -111,3 +111,20 @@ a {
 .boxShadow {
   box-shadow: 10px 7px 25px 1px grey;
 }
+
+.imgFill {
+  background-size: cover;
+}
+
+@media only screen and (max-width: 430px) {
+  .imgProj {
+    width: 200px;
+    height: 150px;
+  }
+}
+@media only screen and (max-width: 250px) {
+  .imgProj {
+    width: 150px;
+    height: 100px;
+  }
+}

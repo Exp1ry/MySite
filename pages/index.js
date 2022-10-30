@@ -192,7 +192,7 @@ export default function Home() {
       </section>
 
       <section>
-        <Container style={{ marginTop: "150px" }}>
+        <Container style={{ marginTop: "150px" }} className="mb-5">
           <h2 className="text-center mb-5">What my clients think</h2>
           <Carousel variant="dark" className="boxShadow">
             <Carousel.Item>
@@ -215,10 +215,9 @@ export default function Home() {
                   <div>
                     <h3 className="text-center">Josh</h3>
                     <p className="w-75 mx-auto">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      For a junior developer, Zaid showed a vast amount of
+                      knowledge. All tasks were completed in time, and up to
+                      standard. 100% would recommened him.
                     </p>
                   </div>
                 </Card.Body>
@@ -242,12 +241,11 @@ export default function Home() {
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
                   <div>
-                    <h3 className="text-center">James</h3>
+                    <h3 className="text-center">Alex</h3>
                     <p className="w-75 mx-auto">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                      Zaid did an outstanding job completing our given tasks. He
+                      did everything we spoke about, and had great
+                      commmunication.
                     </p>
                   </div>
                 </Card.Body>
@@ -255,127 +253,6 @@ export default function Home() {
             </Carousel.Item>
           </Carousel>
         </Container>
-      </section>
-
-      <section style={{ marginTop: "150px" }} className="mb-5">
-        <Container className="text-center">
-          <h2 className="">My Projects</h2>
-          <Row className="mt-5">
-            <Col>
-              <Card className=" mx-auto h-100">
-                <Card.Header className="mt-1">
-                  {" "}
-                  <a className="links" href="https://www.lotshouse.com">
-                    eCommerce Site
-                  </a>
-                </Card.Header>
-                <Card.Body>
-                  <Image
-                    src="https://i.postimg.cc/kG82BFDx/productsss.png"
-                    width={"100%"}
-                    alt="img"
-                  ></Image>
-                </Card.Body>
-                <Card.Footer>
-                  <Badge bg={"success"}>eCommerce</Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    ReactJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    NodeJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    ExpressJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    MongoDB
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    StripeAPI
-                  </Badge>
-                </Card.Footer>
-              </Card>
-            </Col>
-            <Col>
-              <Card className=" mx-auto h-100">
-                <Card.Header className="mt-1 ">Company Site</Card.Header>
-                <Card.Body>
-                  <Image
-                    src="https://i.postimg.cc/qMw3nwjL/Screenshot-from-2022-08-28-16-14-34.png"
-                    alt="img"
-                    width={"100%"}
-                  ></Image>
-                </Card.Body>
-                <Card.Footer>
-                  <Badge bg={"success"}>Custom</Badge>
-
-                  <Badge className="ms-1" bg={"info"}>
-                    ReactJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    NodeJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    ExpressJS
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    MongoDB
-                  </Badge>
-                </Card.Footer>
-              </Card>
-            </Col>
-            <Col>
-              <Card className=" mx-auto h-100 blockchainProject">
-                <Card.Header className="mt-1">
-                  <a href="https://youtu.be/i2CmejIOfp8" className="links">
-                    Blockchain Communication System
-                  </a>
-                </Card.Header>
-                <Card.Body>
-                  <Image
-                    src="https://i.postimg.cc/xjhdG5CS/fabric.png"
-                    alt="img"
-                    width={"100%"}
-                  ></Image>
-                </Card.Body>
-                <Card.Footer>
-                  <Badge bg={"success"}>Blockchain</Badge>
-
-                  <Badge className="ms-1" bg={"info"}>
-                    Permissioned
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    Docker
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    CouchDB
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    Terminal
-                  </Badge>
-                  <Badge className="ms-1" bg={"info"}>
-                    Google Console
-                  </Badge>
-                </Card.Footer>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </section>
-
-      <section style={{ height: "150px", backgroundColor: "#40a5f5" }}>
-        <Container>
-          <div className="text-white text-center pt-4">
-            <h2>Have a project idea?</h2>
-            <p style={{ width: "100%" }} className="mx-auto">
-              Don&apos;t hesitate to drop me an email at
-              <span className="text-dark d-block">fpszaid@gmail.com</span>
-            </p>
-          </div>
-        </Container>
-      </section>
-      <section style={{ height: "30px", backgroundColor: "#434f5f" }}>
-        <p className="text-white text-center">&copy; Zaid Widyan </p>
       </section>
     </>
   )
