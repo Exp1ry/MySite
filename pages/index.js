@@ -209,6 +209,7 @@ export default function Home() {
                     className="d-block mx-auto mb-5"
                     roundedCircle={true}
                     height={"100px"}
+                    alt="img"
                     width={"125px"}
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>
@@ -237,6 +238,7 @@ export default function Home() {
                     className="d-block mx-auto mb-5"
                     roundedCircle={true}
                     height={"100px"}
+                    alt="img"
                     width={"125px"}
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
                   ></Image>

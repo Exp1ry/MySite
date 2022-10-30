@@ -24,7 +24,7 @@ const Projects = (props) => {
                   <Card.Body>
                     <h4>Project Type: {i.category}</h4>
                     <p>{i.details}</p>
-                    <a rel="noreferrer" target={"_blank"} href={i.link}>
+                    <a target={"_blank"} rel="noreferrer" href={i.link}>
                       <p>Link</p>
                     </a>
                     <Image
@@ -78,7 +78,7 @@ const Projects = (props) => {
                   <Card.Body>
                     <h4>Project Type: {i.category}</h4>
                     <p>{i.details}</p>
-                    <a rel="noreferrer" target="_blank" href={i.link}>
+                    <a target="_blank" rel="noreferrer" href={i.link}>
                       <p>Link</p>
                     </a>
                     <Image
