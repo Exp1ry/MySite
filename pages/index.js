@@ -13,9 +13,6 @@ import {
 } from "react-bootstrap"
 
 export default function Home() {
-  useEffect(() => {
-    console.log("first")
-  })
   return (
     <>
       <section style={{ backgroundColor: "#40a5f5" }}>
