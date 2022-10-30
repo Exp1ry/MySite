@@ -14,18 +14,18 @@ const NavBarComp = () => {
             Home
           </Nav.Link>
           <Nav.Link
-            className="ms-3"
+            className="ms-4"
             href="https://www.linkedin.com/in/zaidwidyan/"
           >
             <i class="fa-brands fa-linkedin" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link className="ms-3" href="https://github.com/Exp1ry">
+          <Nav.Link className="ms-4" href="https://github.com/Exp1ry">
             <i class="fa-brands fa-github" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link className="ms-3">
+          <Nav.Link className="ms-4">
             <i class="fa-brands fa-twitter" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link href="/projects" className="ms-3 text-white">
+          <Nav.Link href="/projects" className="ms-4 text-white">
             Projects
           </Nav.Link>
         </Navbar.Brand>
