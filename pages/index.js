@@ -15,8 +15,11 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Welcome</title>
-        <meta name="description" content="Full Stack Web Developer"></meta>
+        <title>Full Stack Web Developer</title>
+        <meta
+          name="description"
+          content="Full Stack Web Developer specializing in the MERN Stack, which includes ReactJS, ExpressJS, NodeJS and MongoDB. Blockchain & Web3 enthusiast"
+        ></meta>
       </Head>
       <section style={{ backgroundColor: "#40a5f5" }}>
         <Container className="forMedia pt-5 pb-5">
