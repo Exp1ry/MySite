@@ -9,16 +9,13 @@ const Projects = (props) => {
     <>
       <Head>
         <title>Projects</title>
-        <meta
-          name="description"
-          content="View all of my previous projects"
-        ></meta>
+        <meta name="description" content="All of my previous projects."></meta>
       </Head>
       <h1
         className="text-center text-white pt-3 pb-3 "
         style={{ backgroundColor: " #40a5f5" }}
       >
-        Projects
+        My Projects
       </h1>
       <Container className="mt-5 mb-5">
         <Row sm={1} lg={2}>
