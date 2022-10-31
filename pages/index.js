@@ -195,7 +195,7 @@ export default function Home() {
       </section>
 
       <section>
-        <Container style={{ marginTop: "150px" }} className="mb-5">
+        <Container style={{ marginTop: "150px" }} className="mb-5 pb-5">
           <h2 className="text-center mb-5">Client Feedback</h2>
           <Carousel variant="dark" className="boxShadow">
             <Carousel.Item>

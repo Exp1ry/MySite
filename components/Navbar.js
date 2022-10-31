@@ -10,9 +10,9 @@ const NavBarComp = () => {
     <Navbar expand="sm" style={{ height: "45px", backgroundColor: "#0a71c6" }}>
       <Container>
         <Navbar.Brand href="#home" className="text-dark d-flex mx-auto ">
-          <Nav.Link href="/" className="mx-4 text-white">
-            Home
-          </Nav.Link>
+          <Link href="/">
+            <span className="text-white mx-2">Home</span>
+          </Link>
           <Nav.Link
             className="mx-3"
             href="https://www.linkedin.com/in/zaidwidyan/"
@@ -25,9 +25,9 @@ const NavBarComp = () => {
           <Nav.Link className="mx-3">
             <i class="fa-brands fa-twitter" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link href="/projects" className=" text-white mx-4">
-            Projects
-          </Nav.Link>
+          <Link href="/projects">
+            <span className="text-white mx-2">Projects</span>
+          </Link>
         </Navbar.Brand>
       </Container>
     </Navbar>
