@@ -1,4 +1,5 @@
 import React, { useEffect, useReducer, useLayoutEffect, useState } from "react"
+import Head from "next/head"
 import axios from "axios"
 import { Card, Row, Col, Container, Image, Badge } from "react-bootstrap"
 const Projects = (props) => {
@@ -6,6 +7,13 @@ const Projects = (props) => {
 
   return (
     <>
+      <Head>
+        <title>Projects</title>
+        <meta
+          name="description"
+          content="View all of my previous projects"
+        ></meta>
+      </Head>
       <h1
         className="text-center text-white pt-3 pb-3 "
         style={{ backgroundColor: " #40a5f5" }}

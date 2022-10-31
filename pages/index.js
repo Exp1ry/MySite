@@ -14,6 +14,10 @@ import {
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Home</title>
+        <meta name="description" content="Full Stack Web Developer"></meta>
+      </Head>
       <section style={{ backgroundColor: "#40a5f5" }}>
         <Container className="forMedia pt-5 pb-5">
           <Image
