@@ -4,14 +4,12 @@ import Script from "next/script"
 import { Analytics } from "@vercel/analytics/react"
 import NavBarComp from "../components/Navbar"
 import Footer from "../components/Footer"
-import { BackTop } from "antd"
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <NavBarComp /> <Component {...pageProps} />
       <Analytics />
       <Footer />
-      <BackTop />
       <Script src="https://kit.fontawesome.com/f260f67609.js"></Script>
     </>
   )

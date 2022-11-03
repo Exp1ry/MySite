@@ -10,7 +10,6 @@ import {
   Card,
   Badge,
 } from "react-bootstrap"
-
 export default function Home() {
   return (
     <>
@@ -201,7 +200,7 @@ export default function Home() {
         </Container>
       </section>
 
-      <section>
+      <section className="pb-5">
         <Container style={{ marginTop: "150px" }} className="mb-5 pb-5">
           <h2 className="text-center mb-5">Client Feedback</h2>
           <Carousel variant="dark" className="boxShadow">
@@ -221,7 +220,7 @@ export default function Home() {
                     height={"100px"}
                     alt="img"
                     width={"125px"}
-                    src="https://i.postimg.cc/L5WT8HJq/testman.webp"
+                    src="https://i.postimg.cc/7hKLr8nr/man3.jpg"
                   ></Image>
                   <div>
                     <h3 className="text-center">Josh</h3>
