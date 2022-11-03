@@ -256,7 +256,7 @@ export default function Home() {
                     <p className="w-75 mx-auto">
                       Zaid did an outstanding job completing our given tasks. He
                       did everything we spoke about, and had great
-                      commmunication.
+                      commmunication. Zaid is an all round great developer.
                     </p>
                   </div>
                 </Card.Body>
