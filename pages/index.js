@@ -223,7 +223,7 @@ export default function Home() {
                     <p className="w-75 mx-auto">
                       For a junior developer, Zaid showed a vast amount of
                       knowledge. All tasks were completed in time, and up to
-                      standard. 100% would recommened him.
+                      standard. Would recommend.
                     </p>
                   </div>
                 </Card.Body>
