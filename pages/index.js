@@ -32,7 +32,9 @@ export default function Home() {
           ></Image>
           <div className="mainText text-white">
             <p>Hello, my name is</p>
-            <h1>Zaid Widyan</h1>
+            <h1 className="text-white">
+              <strong>Zaid Widyan</strong>
+            </h1>
             <p>
               Self taught<span className="text-dark"> Web Developer</span> with
               hands-on experience with technologies like{" "}

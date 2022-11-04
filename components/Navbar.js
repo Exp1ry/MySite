@@ -7,31 +7,93 @@ import NavDropdown from "react-bootstrap/NavDropdown"
 
 const NavBarComp = () => {
   return (
-    <Navbar expand="sm" style={{ height: "45px", backgroundColor: "#0a71c6" }}>
+    <Navbar
+      collapseOnSelect
+      expand="sm"
+      style={{ backgroundColor: "#0a71c6" }}
+      variant="dark"
+      className="navHeight"
+    >
       <Container>
-        <Navbar.Brand href="#home" className="text-dark d-flex mx-auto ">
-          <Link href="/">
-            <span className="text-white mx-2">Home</span>
-          </Link>
+        <div className="d-flex">
           <Nav.Link
-            className="mx-3"
             href="https://www.linkedin.com/in/zaidwidyan/"
+            className="mx-2 socialCenter"
           >
-            <i class="fa-brands fa-linkedin" style={{ color: "white" }}></i>
+            <i class="fa-brands fa-linkedin " style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link className="" href="https://github.com/Exp1ry">
+          <Nav.Link
+            className="mx-2 socialCenter"
+            href="https://github.com/Exp1ry"
+          >
             <i class="fa-brands fa-github" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Nav.Link className="mx-3">
+          <Nav.Link className="mx-2 socialCenter" href="#features">
             <i class="fa-brands fa-twitter" style={{ color: "white" }}></i>
           </Nav.Link>
-          <Link href="/projects">
-            <span className="text-white mx-2">Projects</span>
-          </Link>
-        </Navbar.Brand>
+        </div>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="ms-auto">
+            <Link href="/">
+              <span
+                style={{ cursor: "pointer" }}
+                className="text-white centerLink text-center"
+              >
+                Home
+              </span>
+            </Link>
+          </Nav>
+          <Nav>
+            <Link href={"/projects"}>
+              <span
+                style={{ cursor: "pointer" }}
+                className="text-white text-center centerLink"
+              >
+                Projects
+              </span>
+            </Link>
+            <Link href="/case-studies">
+              <span
+                style={{ cursor: "pointer" }}
+                className="text-white text-center centerLink"
+              >
+                Case Studies
+              </span>
+            </Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   )
 }
 
 export default NavBarComp
+
+// <Navbar expand="sm" style={{ height: "45px", backgroundColor: "#0a71c6" }}>
+//   <Container>
+//     <Navbar.Brand href="#home" className="text-dark d-flex mx-auto ">
+//       <Nav.Link
+//         className="mx-3"
+//         href="https://www.linkedin.com/in/zaidwidyan/"
+//       >
+//         <i class="fa-brands fa-linkedin" style={{ color: "white" }}></i>
+//       </Nav.Link>
+//       <Nav.Link className="" href="https://github.com/Exp1ry">
+//         <i class="fa-brands fa-github" style={{ color: "white" }}></i>
+//       </Nav.Link>
+//       <Nav.Link className="mx-3">
+//         <i class="fa-brands fa-twitter" style={{ color: "white" }}></i>
+//       </Nav.Link>
+//       <Link href="/">
+//         <span className="text-white mx-2">Home</span>
+//       </Link>
+//       <Link href="/projects">
+//         <span className="text-white mx-2">Projects</span>
+//       </Link>
+//       <Link href="/case-studies">
+//         <span className="text-white mx-2">Case Studies</span>
+//       </Link>
+//     </Navbar.Brand>
+//   </Container>
+// </Navbar>
