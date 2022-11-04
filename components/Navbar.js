@@ -40,7 +40,7 @@ const NavBarComp = () => {
                 style={{ cursor: "pointer" }}
                 className="text-white centerLink text-center"
               >
-                Home
+                <strong>Home</strong>
               </span>
             </Link>
           </Nav>
@@ -50,7 +50,7 @@ const NavBarComp = () => {
                 style={{ cursor: "pointer" }}
                 className="text-white text-center centerLink"
               >
-                Projects
+                <strong>Projects</strong>
               </span>
             </Link>
             <Link href="/case-studies">
@@ -58,7 +58,7 @@ const NavBarComp = () => {
                 style={{ cursor: "pointer" }}
                 className="text-white text-center centerLink"
               >
-                Case Studies
+                <strong>Case Studies</strong>
               </span>
             </Link>
           </Nav>
