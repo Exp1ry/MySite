@@ -135,10 +135,6 @@ a {
     height: 50px;
   }
   .centerLink {
-    margin-left: 50px;
-  }
-}
-@media only screen and (max-width: 580px) {
-  .socialCenter {
+    margin-left: 45px;
   }
 }
