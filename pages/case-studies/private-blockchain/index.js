@@ -24,7 +24,7 @@ const Case = () => {
                 <Card.Body className="text-center">
                   <h6 className="mt-3 mb-3">
                     Whilst working at my old company; Syndeno, I was asked to
-                    create a <strong>permissioned-blockchain system</strong>
+                    create a <strong>permissioned-blockchain system</strong>{" "}
                     that allows <strong>departments</strong> such as{" "}
                     <strong>Marketing</strong> &{" "}
                     <strong>Producers (Vendors) </strong>
