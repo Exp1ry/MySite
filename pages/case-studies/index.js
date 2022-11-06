@@ -19,14 +19,19 @@ const index = () => {
         </h6>
       </div>
       <Container className="mt-5 mb-5">
-        <Card className="w-75 mx-auto">
+        <Card className="w-50 mx-auto">
           <Card.Title className="text-center pt-3">
             <h3>Private blockchain for enterprises</h3>
+            <p>
+              My analysis of a communication problem, followed by my implemented
+              solution.
+            </p>
           </Card.Title>
           <Card.Body className="mx-auto">
             <Image
               src="https://i.postimg.cc/T32JqLc3/fabric.png"
               className="imgProj"
+              alt="img"
             ></Image>
           </Card.Body>
           <Card.Footer className="mx-auto">

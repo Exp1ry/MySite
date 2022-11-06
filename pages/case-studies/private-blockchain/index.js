@@ -29,8 +29,8 @@ const Case = () => {
                     <strong>Marketing</strong> &{" "}
                     <strong>Producers (Vendors) </strong>
                     to access <strong>data</strong> from{" "}
-                    <strong>Website stores</strong> &
-                    <strong>Physical stores</strong> & their respected
+                    <strong>Website stores</strong> &{" "}
+                    <strong>Physical stores</strong> & their respected{" "}
                     <strong>warehouses.</strong>
                   </h6>
                   <Image
