@@ -138,3 +138,14 @@ a {
     margin-left: 45px;
   }
 }
+
+@media only screen and (min-width: 975px) {
+  .caseCard {
+    width: 500px;
+  }
+}
+@media only screen and (max-width: 974px) {
+  .caseCard {
+    width: 100%;
+  }
+}
