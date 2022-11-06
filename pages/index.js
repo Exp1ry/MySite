@@ -5,11 +5,11 @@ import {
   Row,
   Col,
   Image,
-  Button,
   Carousel,
   Card,
   Badge,
 } from "react-bootstrap"
+import { Button } from "antd"
 export default function Home() {
   return (
     <>
