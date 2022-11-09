@@ -8,8 +8,9 @@ import {
   Carousel,
   Card,
   Badge,
+  Button,
 } from "react-bootstrap"
-import { Button } from "antd"
+
 export default function Home() {
   return (
     <>
@@ -69,7 +70,7 @@ export default function Home() {
             platforms for companies.{" "}
             <span className="text-primary d-block">
               {" "}
-              <a href="https://drive.google.com/uc?export=download&id=1EsW4yOYxnFR_5oilksMdjlzxZisYUJBI">
+              <a href="https://drive.google.com/uc?export=download&id=1Upwn2AWi6o8fDxzpmnMQ8cm8bqNQzUik">
                 Download my CV
               </a>
             </span>
