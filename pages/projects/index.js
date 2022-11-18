@@ -109,7 +109,7 @@ const Projects = (props) => {
                   </Card.Footer>
                 </Card>
               </Col>
-            ) : i.project.includes("Real") ? (
+            ) : i.project.includes("Time") ? (
               <Col>
                 <Card key={i.id} className="text-center mt-5 pt-2 ">
                   <Card.Title>
