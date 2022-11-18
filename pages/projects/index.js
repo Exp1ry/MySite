@@ -120,12 +120,7 @@ const Projects = (props) => {
 }
 
 export async function getStaticProps() {
-  const { data } = await axios.get(
-    "https://zaid-server.herokuapp.com/projects",
-    {
-      reva,
-    }
-  )
+  const { data } = await axios.get("https://zaid-server.herokuapp.com/projects")
 
   return {
     props: {
