@@ -4,7 +4,7 @@ import axios from "axios"
 import { Card, Row, Col, Container, Image, Badge } from "react-bootstrap"
 const Projects = (props) => {
   const { projects } = props
-
+  console.log(projects)
   return (
     <>
       <Head>
@@ -96,57 +96,39 @@ const Projects = (props) => {
                     ></Image>
                   </Card.Body>
                   <Card.Footer>
-                    <Badge bg={"success"}>{i.project}</Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      HTML
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      CSS
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      JavaScript
-                    </Badge>
-                  </Card.Footer>
-                </Card>
-              </Col>
-            ) : i.project.includes("Time") ? (
-              <Col>
-                <Card key={i.id} className="text-center mt-5 pt-2 ">
-                  <Card.Title>
-                    <h2>{i.project}</h2>
-                  </Card.Title>
-                  <Card.Body>
-                    <h4>Project Type: {i.category}</h4>
-                    <p>{i.details}</p>
-                    <a target="_blank" rel="noreferrer" href={i.link}>
-                      <p>Link</p>
-                    </a>
-                    <Image
-                      className="imgProj"
-                      height="200px"
-                      alt="img"
-                      style={{ border: 1, borderStyle: "solid" }}
-                      width="400px"
-                      src={i.img}
-                    ></Image>
-                  </Card.Body>
-                  <Card.Footer>
-                    <Badge bg={"success"}>{i.project}</Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      TypeScript
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      Redis
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      NextJS-13
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      Next-Auth
-                    </Badge>
-                    <Badge className="ms-1" bg={"info"}>
-                      SWR
-                    </Badge>
+                    {i.project.includes("Real") ? (
+                      <>
+                        <Badge bg={"success"}>{i.project}</Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          TypeScript
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          Redis
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          NextJS-13
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          Next-Auth
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          SWR
+                        </Badge>
+                      </>
+                    ) : (
+                      <>
+                        <Badge bg={"success"}>{i.project}</Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          HTML
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          CSS
+                        </Badge>
+                        <Badge className="ms-1" bg={"info"}>
+                          JavaScript
+                        </Badge>
+                      </>
+                    )}
                   </Card.Footer>
                 </Card>
               </Col>
