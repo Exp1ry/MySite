@@ -13,6 +13,10 @@ a {
   font-family: "Montserrat", monospace;
   box-sizing: border-box;
 }
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 0px;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
