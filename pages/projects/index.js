@@ -132,6 +132,25 @@ const Projects = (props) => {
                   </Card.Footer>
                 </Card>
               </Col>
+            ) : i.project.includes("Airbnb") ? (
+              <>
+                <Badge bg={"success"}>{i.project}</Badge>
+                <Badge className="ms-1" bg={"info"}>
+                  TypeScript
+                </Badge>
+
+                <Badge className="ms-1" bg={"info"}>
+                  Tailwind
+                </Badge>
+
+                <Badge className="ms-1" bg={"info"}>
+                  ExpressJS
+                </Badge>
+
+                <Badge className="ms-1" bg={"info"}>
+                  API
+                </Badge>
+              </>
             ) : (
               ""
             )
