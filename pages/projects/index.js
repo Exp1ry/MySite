@@ -1,4 +1,4 @@
-import React, { useLayoutEffect, useState } from "react"
+import React, { useState } from "react"
 import Head from "next/head"
 import axios from "axios"
 import { Card, Row, Col, Container, Image, Badge } from "react-bootstrap"
