@@ -132,7 +132,7 @@ const Projects = (props) => {
                   </Card.Footer>
                 </Card>
               </Col>
-            ) : i.project.includes("Airbnb") ? (
+            ) : i.project.includes("AirBnb") ? (
               <>
                 <Badge bg={"success"}>{i.project}</Badge>
                 <Badge className="ms-1" bg={"info"}>
