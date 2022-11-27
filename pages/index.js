@@ -217,14 +217,14 @@ export default function Home() {
                   ></i>
                 </h3>
                 <Card.Body className="mx-auto pt-3 pb-5 ">
-                  <Image
+                  {/* <Image
                     className="d-block mx-auto mb-5"
                     roundedCircle={true}
                     height={"100px"}
                     alt="img"
                     width={"125px"}
                     src="https://i.postimg.cc/7hKLr8nr/man3.jpg"
-                  ></Image>
+                  ></Image> */}
                   <div>
                     <h3 className="text-center">Josh</h3>
                     <p className="w-75 mx-auto">
@@ -246,14 +246,14 @@ export default function Home() {
                   ></i>
                 </h3>
                 <Card.Body className="mx-auto pt-3 pb-5 ">
-                  <Image
+                  {/* <Image
                     className="d-block mx-auto mb-5"
                     roundedCircle={true}
                     height={"100px"}
                     alt="img"
                     width={"125px"}
                     src="https://i.postimg.cc/L5WT8HJq/testman.webp"
-                  ></Image>
+                  ></Image> */}
                   <div>
                     <h3 className="text-center">Alex</h3>
                     <p className="w-75 mx-auto">
