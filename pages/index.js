@@ -109,13 +109,25 @@ export default function Home() {
               <Row>
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
-                  <p className="my-auto ms-2">Webpack</p>
+                  <p className="my-auto ms-2">HTML/CSS/SASS</p>
                 </div>
               </Row>
               <Row>
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
-                  <p className="my-auto ms-2">HTML/CSS/SASS</p>
+                  <p className="my-auto ms-2">TailwindCSS</p>
+                </div>
+              </Row>
+              <Row>
+                <div className="d-flex ms-1">
+                  <i class="fa-solid fa-check text-primary"></i>
+                  <p className="my-auto ms-2">UX/UI</p>
+                </div>
+              </Row>
+              <Row>
+                <div className="d-flex ms-1">
+                  <i class="fa-solid fa-check text-primary"></i>
+                  <p className="my-auto ms-2">Webpack</p>
                 </div>
               </Row>
             </Col>
