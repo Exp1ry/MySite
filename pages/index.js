@@ -70,7 +70,7 @@ export default function Home() {
             platforms for companies.{" "}
             <span className="text-primary d-block">
               {" "}
-              <a href="https://drive.google.com/uc?export=download&id=1Upwn2AWi6o8fDxzpmnMQ8cm8bqNQzUik">
+              <a href="https://drive.google.com/file/d/1EsW4yOYxnFR_5oilksMdjlzxZisYUJBI/view?usp=share_link">
                 Download my CV
               </a>
             </span>
