@@ -239,7 +239,7 @@ export default function Home() {
                   ></Image> */}
                   <div>
                     <h3 className="text-center">Josh</h3>
-                    <p className="w-75 mx-auto">
+                    <p className="w-75 mx-auto text-center">
                       For a junior developer, Zaid showed a vast amount of
                       knowledge. All tasks were completed in time, and up to
                       standard. Would recommend.
@@ -268,7 +268,7 @@ export default function Home() {
                   ></Image> */}
                   <div>
                     <h3 className="text-center">Alex</h3>
-                    <p className="w-75 mx-auto">
+                    <p className="w-75 mx-auto text-center">
                       Zaid did an outstanding job completing our given tasks. He
                       did everything we spoke about, and had great
                       commmunication. Zaid is an all round great developer.
