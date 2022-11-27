@@ -39,7 +39,7 @@ export default function Home() {
             <p>
               Self taught<span className="text-dark"> Web Developer</span> with
               hands-on experience with technologies like{" "}
-              <span className="text-dark">MongoDB</span>,{" "}
+              <span className="text-dark">SQL & NoSQL</span>,{" "}
               <span className="text-dark">ExpressJS</span>,{" "}
               <span className="text-dark">ReactJS</span>,{" "}
               <span className="text-dark">NodeJS</span>,{" "}
@@ -153,6 +153,12 @@ export default function Home() {
                 <div className="d-flex ms-1">
                   <i class="fa-solid fa-check text-primary"></i>
                   <p className="my-auto ms-2">MongoDB</p>
+                </div>
+              </Row>
+              <Row>
+                <div className="d-flex ms-1">
+                  <i class="fa-solid fa-check text-primary"></i>
+                  <p className="my-auto ms-2">PostgreSQL</p>
                 </div>
               </Row>
               <Row>
